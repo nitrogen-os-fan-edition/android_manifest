@@ -24,9 +24,8 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b 11
-    # Look for your device's local manifest file in this organization's page. In case of oneplus3, that will be oneplus3_local_manifest, so:
-    git clone https://github.com/nitrogen-project/oneplus_local_manifest.git .repo/local_manifests -b 11
+    repo init -u https://github.com/nitrogen-fan-edition-project/android_manifest.git -b 11
+
 
 Then to sync up:
 ----------------
