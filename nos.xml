@@ -113,6 +113,7 @@
     <project path="external/json-c" name="android_external_json-c" remote="nos" revision="11" />
     <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nos2" revision="11" />
     <project path="external/sqlite" name="external_sqlite" remote="nosfe" revision="11" />
+    <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="nosfe" revision="11" />
 
     <!-- OTA -->
 
