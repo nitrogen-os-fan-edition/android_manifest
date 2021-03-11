@@ -14,7 +14,7 @@
         sync-j="16" />
 
     <remote name="nosfe"
-        fetch="https://github.com/nitrogen-fan-edition-project"
+        fetch="https://github.com/nitrogen-os-fan-edition"
         sync-j="16" />
 
      <!-- general -->
