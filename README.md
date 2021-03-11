@@ -1,4 +1,5 @@
-Nitrogen OS FAN EDITION Release 1 Manifest
+# NitrogenOS FAN Edition #
+<img src="https://i.imgur.com/t0nutAA.png">
 ====================
 
 Create dirs, and install soft, libs
