@@ -24,12 +24,12 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-fan-edition-project/android_manifest.git -b 11
+    repo init -u https://github.com/nitrogen-os-fan-edition/android_manifest.git -b 11
 
 If you want to save time and space you can do a shallow clone
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-fan-edition-project/android_manifest.git -b 11 --depth=1
+    repo init -u https://github.com/nitrogen-os-fan-edition/android_manifest.git -b 11 --depth=1
     
 Then to sync up:
 ----------------
