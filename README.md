@@ -1,4 +1,4 @@
-Nitrogen OS Maintenance Release 2 Manifest
+Nitrogen OS FAN EDITION Release 1 Manifest
 ====================
 
 Create dirs, and install soft, libs
@@ -26,7 +26,11 @@ To initialize your local repository use
 
     repo init -u https://github.com/nitrogen-fan-edition-project/android_manifest.git -b 11
 
+If you want to save time and space you can do a shallow clone
+---------------------------------------
 
+    repo init -u https://github.com/nitrogen-fan-edition-project/android_manifest.git -b 11 --depth=1
+    
 Then to sync up:
 ----------------
 
@@ -35,11 +39,5 @@ Then to sync up:
 Build command is
 ----------------
     . build/envsetup.sh
-    lunch nitrogen_oneplus3-userdebug
+    lunch nitrogen_$device-userdebug
     make -j$(nproc --all) otapackage
-
-Official supported Devices
------------------
-
-    OnePlus 3 (oneplus3)
-    Poco X3 (surya)
