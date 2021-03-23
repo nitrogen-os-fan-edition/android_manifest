@@ -17,6 +17,12 @@
         fetch="https://github.com/nitrogen-os-fan-edition"
         sync-j="16" />
 
+    
+    <remote name="awaken"
+        revision="11"
+        fetch="https://github.com/Project-Awaken/"
+        sync-j="16" />
+
      <!-- general -->
     <project path="build/make" name="android_build_make" remote="nosfe" revision="11" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -132,6 +138,7 @@
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nosfe" revision="11" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="11" />
     
+    
 
     <!-- prebuilts -->
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="nos" revision="11" />
@@ -147,9 +154,11 @@
     <project path="system/bt" name="android_system_bt" remote="nos" revision="11" />
     <project path="system/core" name="android_system_core" remote="nos" revision="11" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="11" />
+    <project path="system/iorap" name="android_system_iorap" remote="awaken" />
+    <project path="system/libhwbinder" name="android_system_libhwbinder" remote="awaken" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="11" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="11" />
-
+    
     <!-- services -->
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="11" />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="11" />
