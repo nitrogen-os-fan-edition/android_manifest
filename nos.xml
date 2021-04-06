@@ -126,6 +126,7 @@
     <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="nosfe" revision="11" />
     <project path="external/asus/stichimage" name="platform_external_asus_stitchimage" remote="nosfe" revision="11" />
     <project path="external/faceunlock" name="external_faceunlock" remote="pe" revision="eleven" />
+    <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r34" />
 
     <!-- OTA -->
 

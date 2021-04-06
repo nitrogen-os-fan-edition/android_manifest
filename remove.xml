@@ -72,7 +72,8 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
-
+  <remove-project name="platform/external/libunwind" />
+	
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
