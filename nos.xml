@@ -205,4 +205,7 @@
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nos" revision="11" />
     <project path="vendor/support" name="android_vendor_support" remote="nosfe" revision="11" />
+
+
+    <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
 </manifest>
