@@ -33,6 +33,12 @@
         fetch="https://github.com/LineageOS/"
         sync-j="16" />
 
+    <remote name="kdrag0n"
+        revision="main"
+        fetch="https://github.com/kdrag0n"
+        sync-j="16" 
+        />
+
      <!-- general -->
     <project path="build/make" name="android_build_make" remote="nosfe" revision="11" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -211,4 +217,6 @@
 
     <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" revision="lineage-18.1" />
+
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 </manifest>
