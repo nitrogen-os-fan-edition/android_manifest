@@ -125,7 +125,9 @@
     <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="nosfe" revision="11" />
     <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="nosfe" revision="11" />
     <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="nosfe" revision="11" />
+    <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="nosfe" revision="11" />
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="11-caf" />
+
 
     <!-- external -->
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="11" />
