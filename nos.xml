@@ -143,7 +143,7 @@
     <!-- OTA -->
 
     <!-- packages -->
-    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="11" />
+    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="nosfe" revision="11" />
     <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nosfe" revision="11" />
     <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nos" revision="11" />
     <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="nosfe" revision="11" />
@@ -170,7 +170,7 @@
     <project path="device/nitrogen/sepolicy" name="android_device_nitrogen_sepolicy" remote="nosfe" revision="11" />
 
     <!-- system -->
-    <project path="system/bt" name="android_system_bt" remote="nos" revision="11" />
+    <project path="system/bt" name="android_system_bt" remote="nosfe" revision="11" />
     <project path="system/core" name="android_system_core" remote="nos" revision="11" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="11" />
     <project path="system/iorap" name="android_system_iorap" remote="awaken" />
@@ -194,11 +194,11 @@
     <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nos" revision="11-sn100x" />
     <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="nos" revision="11-sn100x" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="11" />
-    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nos" revision="11"/>
-    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nos" revision="11"/>
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" revision="lineage-18.1" />
-    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nos" revision="11" />
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nos" revision="11"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" revision="lineage-18.1"/>
+    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" revision="lineage-18.1" />
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nosfe" revision="11"/>
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" revision="lineage-18.1"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" revision="lineage-18.1"/>
     <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="11" />
