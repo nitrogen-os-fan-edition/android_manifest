@@ -126,7 +126,7 @@
     <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="nosfe" revision="11" />
     <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="nosfe" revision="11" />
     <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="nosfe" revision="11" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="11-caf" />
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nosfe" revision="11" />
 
 
     <!-- external -->
