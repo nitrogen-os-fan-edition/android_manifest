@@ -83,7 +83,7 @@
     <project path="hardware/nitrogen/interfaces" name="android_hardware_nitrogen_interfaces" remote="nosfe" revision="11" />
 
     <!-- caf -->
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="nos" revision="11" >
+    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="nosfe" revision="11" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP qcom projects, we override os_pickup.mk -->
